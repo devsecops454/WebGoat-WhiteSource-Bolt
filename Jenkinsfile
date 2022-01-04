@@ -14,7 +14,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'bash /home/entrypoint.sh debricked:scan "$DEBRICKED_CREDENTIALS_USR" "$DEBRICKED_CREDENTIALS_PSW" example-jenkins "$GIT_COMMIT" null cli'
+                sh 'bash /home/entrypoint.sh debricked:scan "$DEBRICKED_CREDENTIALS_USR" "$DEBRICKED_CREDENTIALS_PSW" SCA-Debricked "$GIT_COMMIT" null cli'
             }
         }
     }
