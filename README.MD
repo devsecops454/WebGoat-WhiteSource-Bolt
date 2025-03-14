@@ -1,3 +1,5 @@
+[![Vulnerability scan](https://github.com/devsecops454/WebGoat-WhiteSource-Bolt/actions/workflows/debricked-noresolve.yml/badge.svg)](https://github.com/devsecops454/WebGoat-WhiteSource-Bolt/actions/workflows/debricked-noresolve.yml)
+
 # Sonatype DepShield
 [![DepShield Badge](https://depshield.sonatype.org/badges/WebGoat/WebGoat-Legacy/depshield.svg)](https://depshield.github.io)
 
