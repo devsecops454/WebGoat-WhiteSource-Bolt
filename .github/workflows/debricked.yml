@@ -1,0 +1,18 @@
+- name: Debricked Vulnerability Scan
+  # You may pin to the exact commit or the version.
+  # uses: debricked/actions@659ae7accc12313772fbfbd1b1fccec31772ce41
+  uses: debricked/actions@v4.0.0
+          
+name: Debricked resolve
+
+on: [push]
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: debricked/actions/resolve@v3
+        env:
+          DEBRICKED_TOKEN: ${{ secrets.DEBRICKED_TOKEN }}
